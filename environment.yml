@@ -1,0 +1,22 @@
+name: vnpy2
+channels:
+  - defaults
+  - quantopian
+dependencies:
+  - python<3.7
+  - pandas
+  - numpy
+  - ta-lib
+  - matplotlib
+  - seaborn
+  - pyzmq
+  - plotly
+  - psycopg2
+  - pymysql
+  - requests
+  - scipy
+  - pip
+  - pip:
+    - psycopg2-binary
+    - https://pip.vnpy.com/colletion/ibapi-9.76.1.tar.gz
+    - -r requirements.txt
